@@ -7,7 +7,7 @@
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size:20px; 
     margin-left: 20px;
-    color:white;
+    color:black;
     opacity:0.5;
     z-index: -1;
 
@@ -23,7 +23,7 @@
 
 #mainNav a:hover{
     opacity:1;
-    color: white;
+    color: black;
     text-decoration: underline;
     font-size:21px;
 }
@@ -108,6 +108,8 @@ color:white;
         margin-left: 25px;
         font-size: 20px;
       }
+
+      
   }
 
   #tarjetas .card img{
@@ -167,4 +169,47 @@ justify-content: space-around;
     margin-bottom: 15px;
     }
 
-    
+/* ---------------------ESTILOS DE SALES----------------------------*/
+
+.sales .card {
+    border-radius: 20px;
+}
+.sales .card .card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+}
+.cards .image-cards img{
+
+    width: 100px;
+    border-radius: 100px;
+
+}
+.cards .text-cards{
+    justify-content: left;
+    width:250px;
+    margin-top:10px;
+}
+.cards .cards-likes{
+    flex-direction:column;
+    margin-top:15px;
+    color:#ffcf24;
+}
+.cards .cards-likes span{
+    margin-left: 35px;
+
+}
+.cards .cards-likes button{
+    color: white;
+    font-size: 20px;
+    background:#4F6C81;  
+    border-radius: 20px;
+    width:100px; 
+    padding: 5px;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
