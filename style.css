@@ -408,9 +408,9 @@ hr{
         font-weight: bold;
 }
 
-/*------------------------------------ ESTILOS DEL MODAL DE MARCA------------------------------- */
 
-/* MEDIA QUERYS DISEÑO-RESPONSIVO */
+
+/* -----------------------------------------MEDIA QUERYS DISEÑO-RESPONSIVO------------------------------ */
 @media (max-width: 768px) {
     .nav a{
         color:#CFC8D2;
@@ -446,9 +446,15 @@ hr{
 
           .cards .cards-likes span{
             margin-left: 20px;
-        }     
+        }  
+        .text-buy-cart{
+            width:180px;
+            height:60px;
+            color:#5a7394;     
+         }  
+         
   }
-  @media (min-width: 560px) {
+  @media (max-width: 560px) {
     .nav a{
         color:#CFC8D2;
         margin-left: 10px;
@@ -467,12 +473,45 @@ hr{
      #tarjetas .card img{
        width: 50px;
             }   
+            .text-buy{
+                width:100px;
+                height:60px;
+                color:#5a7394;
+                font-size: 10px;
+
+            }
+               
   }
 
   @media (min-width: 768px) {
     .nav a{
         color:#CFC8D2;
         margin-left: 25px;
-        font-size: 20px;
+          font-size: 20px;
       }    
+  }
+
+  @media (max-width: 448px) {
+    .cart-buy .buy .buy-img {
+        width: 122px;
+        height: 170px;
+        background: url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
+        background-size: cover;
+    }
+    
+    .num-buy-cart {
+        width: 227px;
+        height: 30px;
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cart-buy .buy .buy-img2{
+        width: 122px;
+        height: 170px; 
+        background :url(./imagenes/cuarto-moderno-diseño-minimalista.jpg);
+        background-size: cover; 
+     }
+
   }
