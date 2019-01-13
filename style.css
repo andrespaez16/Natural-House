@@ -411,6 +411,87 @@ hr{
 
 
 /* -----------------------------------------MEDIA QUERYS DISEÑO-RESPONSIVO------------------------------ */
+@media (max-width: 448px) {
+    #tarjetas .card { 
+        width: 430px;
+        height: 250px;;
+        }
+    .cart-buy .buy .buy-img {
+        width: 122px;
+        height: 170px;
+        background: url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
+        background-size: cover;
+    }
+    
+    .num-buy-cart {
+        width: 227px;
+        height: 30px;
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cart-buy .buy .buy-img2{
+        width: 122px;
+        height: 170px; 
+        background :url(./imagenes/cuarto-moderno-diseño-minimalista.jpg);
+        background-size: cover; 
+     }
+     .cart-buy .buy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 500px;
+        height: 200px;
+        background: white;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        -webkit-box
+
+  } 
+} 
+@media (max-width: 520px) {
+    #tarjetas .card { 
+        width: 200px;
+        height: 250px;;
+        }
+    .cart-buy .buy .buy-img {
+       width: 122px;
+       height: 170px;
+       background: url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
+       background-size: cover;
+   }
+   
+   .num-buy-cart {
+       width: 227px;
+       height: 30px;
+       margin-top: 80px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+   .cart-buy .buy .buy-img2{
+       width: 122px;
+       height: 170px; 
+       background :url(./imagenes/cuarto-moderno-diseño-minimalista.jpg);
+       background-size: cover; 
+    }
+    .cart-buy .buy {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       width: 500px;
+       height: 200px;
+       background: white;
+       margin: 20px;
+       padding: 10px;
+       border-radius: 20px;
+       -webkit-box
+
+ } 
+}
+
 @media (max-width: 768px) {
     .nav a{
         color:#CFC8D2;
@@ -419,7 +500,7 @@ hr{
         margin-right: 10px;
       }
       #tarjetas .card { 
-        width: 450px;
+        width: 430px;
         height: 250px;;
         }
      #tarjetas .card img{
@@ -454,116 +535,16 @@ hr{
          }  
          
   }
-  @media (max-width: 560px) {
-    .nav a{
-        color:#CFC8D2;
-        margin-left: 10px;
-        font-size: 15px;
-        margin-right: 10px;
-      }
-      #tarjetas .card { 
-        width: 200px;
-        height: 250px;
-        justify-content: center;
-        }
-        #tarjetas .card .button{
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-     #tarjetas .card img{
-       width: 50px;
-            }   
-            .text-buy{
-                width:100px;
-                height:60px;
-                color:#5a7394;
-                font-size: 10px;
 
-            }
-               
-  }
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     .nav a{
         color:#CFC8D2;
         margin-left: 25px;
           font-size: 20px;
-      }    
+      }  
+      
   }
 
-  @media (max-width: 448px) {
-    .cart-buy .buy .buy-img {
-        width: 122px;
-        height: 170px;
-        background: url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
-        background-size: cover;
-    }
-    
-    .num-buy-cart {
-        width: 227px;
-        height: 30px;
-        margin-top: 80px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .cart-buy .buy .buy-img2{
-        width: 122px;
-        height: 170px; 
-        background :url(./imagenes/cuarto-moderno-diseño-minimalista.jpg);
-        background-size: cover; 
-     }
-     .cart-buy .buy {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 500px;
-        height: 200px;
-        background: white;
-        margin: 20px;
-        padding: 10px;
-        border-radius: 20px;
-        -webkit-box-shadow:0px 0px 20px 1px #bfbcc3;
-
-  }
-  @media (max-width: 520px) {
-    .cart-buy .buy .buy-img {
-        width: 122px;
-        height: 170px;
-        background: url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
-        background-size: cover;
-    }
-    .cart-buy .buy .buy-img2 {
-        width: 122px;
-        height: 170px;
-        background: url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
-        background-size: cover;
-    }
-    
-    .num-buy-cart {
-        width: 227px;
-        height: 30px;
-        margin-top: 80px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .cart-buy .buy .buy-img2{
-        width: 122px;
-        height: 170px; 
-        background :url(./imagenes/cuarto-moderno-diseño-minimalista.jpg);
-        background-size: cover; 
-     }
-     .cart-buy .buy {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 500px;
-        height: 200px;
-        background: white;
-        margin: 20px;
-        padding: 10px;
-        border-radius: 20px;
-        -webkit-box-shadow:0px 0px 20px 1px #bfbcc3;
-
-  }
+   
+  
