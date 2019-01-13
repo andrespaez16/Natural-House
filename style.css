@@ -26,7 +26,7 @@
 }
 #mainNav button{
 
-color:white;
+color:black;
 }
 
 /* -------------------------------------STYLES SECTION HOME----------------------- */
@@ -423,7 +423,49 @@ hr{
         height: 250px;;
         }
      #tarjetas .card img{
-       width: 100px;
+       width: 50px;
+            }  
+            .cards .cards-likes button{
+                color: white;
+                font-size: 10px;
+                background:#5a7394; 
+                border-radius: 20px;
+                width:60px; 
+                padding: 5px;
+                font-weight: 700;
+                margin-bottom:10px;
+            } 
+            .text-cards p{            
+                font-size: 10px;
+                margin-bottom: 5px;
+            } 
+
+          .cards .image-cards img{
+              width:70px;
+          } 
+
+          .cards .cards-likes span{
+            margin-left: 20px;
+        }     
+  }
+  @media (min-width: 560px) {
+    .nav a{
+        color:#CFC8D2;
+        margin-left: 10px;
+        font-size: 15px;
+        margin-right: 10px;
+      }
+      #tarjetas .card { 
+        width: 200px;
+        height: 250px;
+        justify-content: center;
+        }
+        #tarjetas .card .button{
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+     #tarjetas .card img{
+       width: 50px;
             }   
   }
 
