@@ -33,7 +33,7 @@ color:black;
 .masthead {
     text-align: center;
     color: white;
-    background-image: url("./imagenes/Decoración-de-dormitorio-moderno-Pavel-Vetrov.jpg");
+    background-image: url("../imagenes/Decoración-de-dormitorio-moderno-Pavel-Vetrov.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -309,13 +309,13 @@ color:black;
  .cart-buy .buy .buy-img{
     width: 200px;
     height: 170px; 
-    background :url(./imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
+    background :url(../imagenes/colores-para-la-decoración-de-dormitorios-modernos.jpg);
     background-size: cover; 
  }
  .cart-buy .buy .buy-img2{
     width: 200px;
     height: 170px; 
-    background :url(./imagenes/cuarto-moderno-diseño-minimalista.jpg);
+    background :url(../imagenes/cuarto-moderno-diseño-minimalista.jpg);
     background-size: cover; 
  }
  /*---------------------------------------------- CART-BUY-SECTION TEXT---------------------------------------------------- */
@@ -488,10 +488,8 @@ hr{
        padding: 10px;
        border-radius: 20px;
        -webkit-box
-
  } 
 }
-
 @media (max-width: 768px) {
     .nav a{
         color:#CFC8D2;
@@ -506,7 +504,7 @@ hr{
      #tarjetas .card img{
        width: 50px;
             }  
-            .cards .cards-likes button{
+     .cards .cards-likes button{
                 color: white;
                 font-size: 10px;
                 background:#5a7394; 
@@ -529,14 +527,11 @@ hr{
             margin-left: 20px;
         }  
         .text-buy-cart{
-            width:180px;
+        width:180px;
             height:60px;
             color:#5a7394;     
-         }  
-         
+      }    
   }
-
-
   @media (min-width: 500px) {
     .nav a{
         color:#CFC8D2;
