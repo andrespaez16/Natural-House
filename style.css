@@ -419,11 +419,11 @@ hr{
         margin-right: 10px;
       }
       #tarjetas .card { 
-        width: 150px;
+        width: 450px;
         height: 250px;;
         }
      #tarjetas .card img{
-       width: 50px;
+       width: 100px;
             }   
   }
 
